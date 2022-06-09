@@ -758,6 +758,30 @@ img{
     color: #FFF;
 }
 
+.skills__name__photoshop{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    background: #001c34;
+    background-size: 400% 400%;
+    animation: gradient 4s ease infinite;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+    color: #32a4fe;
+}
+
+.skills__name__illustrator{
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    background: #320001;
+    background-size: 150% 150%;
+    animation: gradient 3s ease infinite;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+    color: #fd9800;
+}
+
 /*=========================*/
 
 .skills__name__portuguese{
@@ -930,7 +954,17 @@ img{
 }
 
 .skills__elementor{
+    width: 50%;
+    animation-delay: 0.4s;
+}
+
+.skills__photoshop{
     width: 65%;
+    animation-delay: 0.4s;
+}
+
+.skills__illustrator{
+    width: 50%;
     animation-delay: 0.4s;
 }
 
